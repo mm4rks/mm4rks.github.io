@@ -1,6 +1,7 @@
 ---
 title: "Writeup %Challenge%"
 excerpt_separator: "<!--more-->"
+share: true
 categories:
   - Writeup
 tags:
