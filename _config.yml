@@ -23,6 +23,13 @@ twitter_username: mm4rks
 github_username: mm4rks
 minimal_mistakes_skin: neon
 search: true
+repository: "mm4rks/mm4rks.github.io"
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-dark" # "github-dark"
+    issue_term: "pathname"
+
 
 # Build settings
 markdown: kramdown
