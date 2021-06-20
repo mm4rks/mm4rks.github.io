@@ -21,14 +21,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 twitter_username: mm4rks
 github_username: mm4rks
-minimal_mistakes_skin: sunrise
+minimal_mistakes_skin: dark
 search: true
 repository: "mm4rks/mm4rks.github.io"
-comments:
-  provider: "utterances"
-  utterances:
-    theme: "github-dark" # "github-dark"
-    issue_term: "pathname"
+# comments:
+#   provider: "utterances"
+#   utterances:
+#     theme: "github-dark" # "github-dark"
+#     issue_term: "pathname"
 
 
 # Build settings
@@ -38,7 +38,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -66,7 +66,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "mm4rks"
+  name   : "Marvin Marks"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
@@ -98,7 +98,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: true
+      comments: false
       share: false
       related: false
   # _pages
